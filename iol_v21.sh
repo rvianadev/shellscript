@@ -1,7 +1,7 @@
 #!/bin/bash
 #
-#	Baixa as mensagens do dia do curso online de inglês do IDPH - versão 2.1
-#       Correção do link para download em 13/05/2016
+#	Baixa as mensagens do dia do curso online de inglês do IDPH (http://iol.idph.com.br/)
+#   Versao 2.1 - correção do link para download em 13/05/2016
 #	Rodrigo Viana de Oliveira - roviol@gmail.com
 #
 
