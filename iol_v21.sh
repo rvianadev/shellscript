@@ -6,11 +6,12 @@
 #
 
 ano=`date +%Y`
-hoje=`date +%j`
+hoje=`date +%j` #formato dia do ano (001 a 365)
 
 for n in `seq -w 1 $hoje`
 do
     arquivo=$ano$n
+    # Verifica se o arquivo ja existe; senao, baixa-o
     if [ ! -e /home/rodrigo/Documentos/IOL/Mensagem\ do\ dia/$arquivo.mp3 ]
     then
         dir=`echo $arquivo | cut -c5-7`
